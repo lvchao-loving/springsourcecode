@@ -22,7 +22,7 @@ import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 /**
  * Extension to the standard {@link BeanFactoryPostProcessor} SPI, allowing for
  * the registration of further bean definitions <i>before</i> regular
- * BeanFactoryPostProcessor detection kicks in. In particular,
+ * BeanFactoryPostProcessor detection(detection：察觉，发现) kicks in(kick in：向里踢进去). In particular,
  * BeanDefinitionRegistryPostProcessor may register further bean definitions
  * which in turn define BeanFactoryPostProcessor instances.
  *

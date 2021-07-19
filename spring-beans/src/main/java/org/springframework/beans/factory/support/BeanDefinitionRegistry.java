@@ -22,6 +22,7 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.core.AliasRegistry;
 
 /**
+ * BeanDefinitionRegistry作用：BeanDefinitionRegistry是Bean定义信息的存储中心，以后BeanFactory就是按照BeanDefinitionRegistry里面存储每一个bean的定义信息创建bean实例。
  * Interface for registries that hold bean definitions, for example RootBeanDefinition
  * and ChildBeanDefinition instances. Typically implemented by BeanFactories that
  * internally work with the AbstractBeanDefinition hierarchy.

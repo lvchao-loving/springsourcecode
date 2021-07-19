@@ -19,8 +19,8 @@ package org.springframework.beans.factory.config;
 import org.springframework.beans.BeansException;
 
 /**
- * Factory hook that allows for custom modification of an application context's
- * bean definitions, adapting the bean property values of the context's underlying
+ * Factory hook(hook:钩，连接) that allows for custom modification of an application context's
+ * bean definitions, adapting the bean property values of the context's underlying(underlying：下层的，表层的)
  * bean factory.
  *
  * <p>Useful for custom config files targeted at system administrators that
